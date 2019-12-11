@@ -10,7 +10,7 @@ class Ligne
       long quantite;      
 
    public:
-      Ligne(Article *article=NULL, long quantite=0);
+      Ligne(Article *article=NULaaaL, long quantite=0);
 
       Article * getArticle() const;
       long getQuantite() const;
