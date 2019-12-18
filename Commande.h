@@ -22,12 +22,12 @@ class Commande
       string getDate() const;
       void setDate(string date);
       Ligne getLigne(int numero) const;
-      void setLigne(const Ligne &l);      
-      
+      void setLigne(const Ligne &l);
+
       double getTotal();
       int getNbArticles() const;
-      
+
       void afficher();
 };
 
-#endif //COMMANDE_H
+#endif //COMMANDE_HHH
